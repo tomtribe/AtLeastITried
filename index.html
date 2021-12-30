@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/webIcon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <title>At Least I Tried.</title>
+
+</head>
+<body>
+  <div class="wrapper">
+    <header id="navBar">
+            <img class="logo" style="width:16%; height:16%; min-width: 150px;" src="images/ALIT-Logo-01.png" alt="logo">
+            <nav>
+                <ul class="navopts">
+                    <li><a href="#blog">Blog Posts</a></li>
+                    <li><a href="#aboutMe">About Me</a></li>
+                </ul>
+            </nav>
+            <a id="navBut" onclick="document.location='contact.html'"><button>Contact</button></a>
+    </header>  
+    <img class="banner" src="images/ALIT_Banner_Home.png" alt="banner">
+    <div class="homeContent">
+ 
+      <div class="blog" id="blog">
+        <h2>Blog Posts<em>.</em></h2>
+
+        <div class="grid-container gridWrapper">
+          <div class ="box">
+            <div class="threeColumngrid">
+              <div class="threeColumnOne">
+                <img class="blogImage" src="images/blogOneIcon.svg" alt="blogOneImage">
+              </div>
+              <div class="threeColumnTwo">
+                <h3>An Iterative Beggining<em>.</em></h3>
+              </div>
+              <div class="threeColumnThree">
+                <p>A contemplative introduction and kick-start to the project<em>.</em></p>
+              </div>
+              <div class="threeColumnFour">
+                <div class="twoGridNested">
+                  <div class="twoGridNestedLeft">
+                        <img class="blogImageMeta" src="images/calendarIcon.svg" alt="blogOneImage">
+                        <p>30/11/21</p>
+                  </div>
+                  <div class="twoGridNestedRight">
+                    <p><a href="blogPost1.html">Read More</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>     
+          </div>
+          <div class="box">
+            <div class="threeColumngrid">
+              <div class="threeColumnOne">
+                <img class="blogImage" style="width: 75px;" src="images/blogTwoIcon.svg" alt="blogOneImage">
+              </div>
+              <div class="threeColumnTwo">
+                <h3>Web Development Envelopment<em>.</em></h3>
+              </div>
+              <div class="threeColumnThree">
+                <p>A shallow dive into the basics of World Wide Web weaving<em>.</em></p>
+              </div>
+              <div class="threeColumnFour">
+                <div class="twoGridNested">
+                  <div class="twoGridNestedLeft">
+                        <img class="blogImageMeta" src="images/calendarIcon.svg" alt="blogOneImage">
+                        <p>**/**/**</p>
+                  </div>
+                  <div class="twoGridNestedRight">
+                    <p><a >Coming Soon!</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>   
+          </div> 
+          <div class ="box">
+            <div class="threeColumngrid">
+              <div class="threeColumnOne">
+                <img class="blogImage" style="width: 90px; height: 75px;" src="images/blogConstructionIcon.svg" alt="blogOneImage">
+              </div>
+              <div class="threeColumnTwo">
+                <h3>Under Construction<em>.</em></h3>
+              </div>
+              <div class="threeColumnThree">
+                <p>The project is always looking for new ideas<em>!</em></p>
+              </div>
+              <div class="threeColumnFour">
+                <div class="twoGridNested">
+                  <div class="twoGridNestedRight">
+                    <p><a href="contact.html">Make a Suggestion</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>   
+          </div>
+        </div>
+      </div>
+
+      <div class="aboutMe" id="aboutMe">
+        <h2>About Me<em>.</em></h2>
+        <img class="aboutMePicture" src="images/about_picture.png" alt="selfie">
+        <p style="margin-top: 1em;"><b>I am <em>Thomas James Tribe</em>; a forename derived from one grandfather and the rest from the other.</b></p>
+        <br>
+        <p>
+          A UK-based 26-year-old Mediator <em>(INFP)</em> embarking on a journey of self-discovery, to refute the personal perception that only professional 
+          accolades define me. Learning to revel in inadequacy and reform my worth from attempts, not achievements.
+        </p>
+        <br>
+        <p>A senseless scribbler. Logistical, but hopeful. Constantly adapting in a pursuit to find purpose. Not to change who I will be, but to better who I am.</p>
+        <br>
+        <p class="aboutMeQuote"><i>"I feel that as long as the shire lies behind, safe and comfortable, I shall find wander more bearable<em>.</em>"</i> - <em>Frodo Baggins</em></p>
+      </div>
+  
+      <button onclick="topFunction()" id="myUpBtn" title="Go to top">Up</button>  
+    </div>
+  </div>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myUpBtn");
+        
+        // When the user scrolls down 100px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+</body>
+</html>
