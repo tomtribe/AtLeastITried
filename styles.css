@@ -33,6 +33,7 @@ header {
     padding-top: 5px;
     border-bottom:1.5px solid rgb(0,0,0);padding-bottom:3px;
     
+    
 }
 
 .logo {
@@ -46,7 +47,7 @@ header {
 
 .navopts li{
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
 }
 
 .navopts li a{
@@ -90,7 +91,7 @@ header {
     font-weight: 400;
     text-align: center;
     font-size: 40px;
-    font-size: 4vw;
+    font-size: 4.5vw;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
     color: #000000;
@@ -357,6 +358,7 @@ button:hover{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     
   }
+
   .flBtnBox.big {
     transform: rotate(0deg);
     background-color: rgb(245, 140, 2);
@@ -389,7 +391,13 @@ button:hover{
     }
   }
   
+
   .flBtnBox.big:hover {
+    box-shadow: 0 0 10px rgba(41,120,211,0.4);
+    animation: out 1s;
+  }
+
+  .flBtnBox.big:active {
     box-shadow: 0 0 10px rgba(41,120,211,0.4);
     animation: out 1s;
   }
@@ -407,6 +415,7 @@ button:hover{
   .flBtnBox.small:hover {
     box-shadow: 0 0 10px rgba(0,0,0,0.3)
   }
+
   .flBtns {
     position: absolute;
     left: 100%;
@@ -425,7 +434,6 @@ button:hover{
 /* About Me secion specific content */
 
 .aboutMePicture {
-  margin-left: 1.3em;
   margin-top: 1.5em;
   margin-bottom: 2em;
   margin-right: 2em;
