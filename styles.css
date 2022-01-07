@@ -409,10 +409,13 @@ button:hover{
 }
 
 /*This will cause the img receive float none rule when screen is smaller than 768px*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   .aboutMePicture {
       float: none;
-      margin-left: 0.3em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
   }
 }
 
