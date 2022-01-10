@@ -104,6 +104,7 @@ em {
     color:rgb(243, 161, 53); 
     font-family: "Lora", serif;
     font-style: normal;
+    
 }
 
 .blogContent p{
@@ -120,7 +121,7 @@ em {
     font-style: italic;
     font-family: "Lora", serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .blogContent > p > a {
@@ -149,11 +150,29 @@ h2{
     margin-bottom: 0.3em;
 }
 
+.blogContent h2{
+  font-family: "Lora", serif;
+  text-align: start;
+  font-style:italic;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 0.9em;
+}
+
 h3{
     font-family: "Lora", serif;
     text-align: center;
-
 }
+
+.blogContent h3{
+  font-family: "Lora", serif;
+  text-align: start;
+  font-style: italic;
+  font-size: 16px;
+  margin-left: 8%;
+  margin-bottom: 0.7em;
+}
+
 /* End of header formatting */
 
 /* Button formatting */
